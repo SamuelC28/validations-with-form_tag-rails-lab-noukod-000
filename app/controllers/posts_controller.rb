@@ -14,7 +14,7 @@ class PostsController < ApplicationController
     if @post.save
        redirect_to post_path(@post)
      else
-       render :edit 
+       render :edit
      end
   end
 
